@@ -1,0 +1,95 @@
+body {
+  background-color: #f8f9fa; /* Light gray background */
+  color: #343a40; /* Dark text color for better readability */
+  font-family: 'Arial', sans-serif; /* Clean and modern font */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0;
+  padding: 2rem;
+  background: #ffffff; /* White background for the content */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border: 2px solid #007bff; /* Blue border for emphasis */
+}
+
+.app-title {
+  color: #007bff; /* Blue color for the title */
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold; /* Bold title */
+}
+
+.question-section {
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #007bff; /* Blue underline for the question section */
+  padding-bottom: 1rem;
+  
+}
+
+.question-section h3 {
+  font-size: 1.5rem;
+  color: #343a40;
+  margin-bottom: 0.5rem;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ced4da; /* Light border around options */
+  border-radius: 4px; /* Rounded corners for options */
+  padding: 1rem;
+  background-color: #f8f9fa; /* Light background for options */
+}
+
+.form-check {
+  margin-bottom: 0.5rem;
+}
+
+.form-check-input {
+  margin-right: 0.5rem;
+}
+
+.form-check-label {
+  font-size: 1rem;
+  color: #495057;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.score-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.score-section h2 {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.score-section h4 {
+  font-size: 1.25rem;
+  color: #343a40;
+}
