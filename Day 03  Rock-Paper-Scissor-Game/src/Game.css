@@ -1,0 +1,89 @@
+/* Apply base styles to html and body for full height and reset margin */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Main background styling for the body */
+body {
+  background: linear-gradient(135deg, #1e90ff, #00008b); /* Gradient background for the body in shades of blue */
+  color: #fff; /* White text color */
+  font-family: Arial, sans-serif; /* Font family */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container to center the game content vertically and horizontally */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center; /* Center text alignment */
+  background-color: #1e3a5f; /* Darker blue background for the game container */
+  border-radius: 10px; /* Rounded corners for the container */
+  padding: 20px; /* Padding inside the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow for the container */
+}
+
+/* Header styling */
+h1 {
+  font-size: 2rem; /* Responsive font size */
+  margin-bottom: 20px; /* Margin below the header */
+  color: #ffffff; /* White color */
+  text-transform: uppercase; /* Uppercase text */
+}
+
+/* Styling for buttons */
+button {
+  margin: 0 10px; /* Margin around the button */
+  padding: 10px 20px; /* Padding inside the button */
+  font-size: 1rem; /* Font size for the button text */
+  background-color: #1e90ff; /* Blue background */
+  color: white; /* White text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+button:hover {
+  background-color: #00008b; /* Darker blue on hover */
+}
+
+/* Styling for content area */
+.content {
+  color: #fff; /* White text color */
+  font-size: 1.125rem; /* Font size for content text */
+  font-weight: bold; /* Bold text */
+  text-shadow: 1px 1px 2px #000; /* Subtle text shadow for better readability */
+  letter-spacing: 1px; /* Letter spacing for text */
+}
+
+/* Additional styling for choice buttons if needed */
+.choice-button {
+  margin: 10px;
+  padding: 12px 24px;
+  font-size: 1.125rem;
+  background-color: #0e59a4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.choice-button:hover {
+  background-color: #00008b;
+}
+
+/* Styling for the result section */
+.result {
+  margin-top: 20px;
+  font-size: 1.25rem; /* Font size for result text */
+  font-weight: bold; /* Bold text */
+  color: #ffeb3b; /* Bright yellow color for result */
+}
