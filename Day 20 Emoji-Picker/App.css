@@ -1,0 +1,90 @@
+/*App.css*/
+body { 
+  font-family: 'Arial', sans-serif; 
+  background-color: #f5f5f5; 
+  margin: 0; 
+  padding: 0; 
+} 
+
+.emoji-app { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  margin-top: 50px; 
+} 
+
+h1 { 
+  font-size: 36px; 
+  margin-bottom: 20px; 
+  color: #3deb08; 
+} 
+
+.selected-emoji { 
+  margin-top: 30px; 
+  padding: 10px; 
+  border-radius: 8px; 
+  background-color: #f7d794; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  text-align: center; 
+} 
+
+.selected-emoji p { 
+  margin: 0; 
+  font-size: 16px; 
+  color: #2d3436; 
+} 
+
+.selected-emoji span { 
+  font-size: 40px; 
+  display: block; 
+  margin-top: 10px; 
+} 
+
+.emoji-picker { 
+  background-color: rgba(255, 255, 255, 0.9); 
+  backdrop-filter: blur(10px); 
+  border-radius: 8px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  margin-top: 20px; 
+  padding: 20px; 
+} 
+
+.emoji-list { 
+  display: grid; 
+  grid-template-columns: repeat(6, 1fr); 
+  gap: 10px; 
+} 
+
+.emoji { 
+  font-size: 30px; 
+  cursor: pointer; 
+  text-align: center; 
+  transition: transform 0.2s ease-in-out; 
+  filter: brightness(100%); 
+} 
+
+.emoji:hover { 
+  transform: scale(1.2); 
+  filter: brightness(120%); 
+} 
+
+.Toastify__toast-container { 
+  z-index: 9999; 
+} 
+
+.Toastify__toast--success { 
+  background-color: #2ecc71; 
+} 
+
+.Toastify__toast--error { 
+  background-color: #e74c3c; 
+} 
+
+.Toastify__toast-body { 
+  font-size: 16px; 
+  color: #011af8; 
+} 
+
+.Toastify__progress-bar { 
+  background-color: rgba(255, 255, 255, 0.7); 
+}
